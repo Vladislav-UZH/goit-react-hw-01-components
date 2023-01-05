@@ -1,7 +1,7 @@
 import { Profile } from '../Profile/Profile';
 import { Statistics } from '../Statistics/Statistics';
 import { FriendList } from 'components/FriendList/FriendList';
-import { FriendListItem } from 'components/FriendListItem/FriendListItem';
+// import { FriendListItem } from 'components/FriendListItem/FriendListItem';
 import user from '../../data-storage/user';
 import friends from '../../data-storage/friends';
 import data from '../../data-storage/data';
@@ -32,10 +32,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics stats={data} />
-      <FriendList>
-        <FriendListItem props={friends} />
-      </FriendList>
+      <FriendList props={friends} />
     </>
   );
 };
-// console.log();
