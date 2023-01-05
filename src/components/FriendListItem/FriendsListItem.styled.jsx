@@ -6,6 +6,7 @@ const Item = styled.li`
   gap: 10px;
   background-color: #2f314b;
   padding: 15px;
+  border-radius: 10%;
 `;
 const Status = styled.span`
   width: 15px;
