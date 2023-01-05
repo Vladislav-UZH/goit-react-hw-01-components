@@ -5,6 +5,7 @@ const Card = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
   color: #e0e0e0;
   margin: 0 auto;
   border-radius: 10px;
@@ -44,18 +45,26 @@ const UserLocation = styled.p`
 // Stats
 const StatsList = styled.ul`
   display: flex;
-  padding: 25px 15px;
-  gap: 15px;
+  padding: 10px 15px;
   justify-content: center;
   align-items: center;
+  gap: 15px;
+  /* border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+  background-color: #2c385e; */
 `;
 const StatsItem = styled.li`
   display: flex;
+  /* padding: 0 10px; */
+
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #cf4707;
   font-weight: 700;
+  /* :not(:last-child) {
+    border-right: 1px solid #c5c5c5;
+  } */
 `;
 // Stats values
 const FollowersLabel = styled.span`
