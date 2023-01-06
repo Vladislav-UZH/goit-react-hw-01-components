@@ -6,7 +6,7 @@ import user from '../../data-storage/user';
 import friends from '../../data-storage/friends';
 import data from '../../data-storage/data';
 
-// import transactions from '../../data-storage/transactions';
+import transactions from '../../data-storage/transactions';
 // console.log(data);
 
 export const App = () => {
@@ -33,6 +33,7 @@ export const App = () => {
       />
       <Statistics stats={data} />
       <FriendList props={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
